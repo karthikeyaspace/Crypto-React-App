@@ -5,7 +5,7 @@ export default function Footer(){
         <div className='footer' id='footer'>
             <div className='container'>
                 <div className='col col-1'>
-                    <h1>C<span className='primary'>rypto</span></h1>
+                    <h1>Crypt0<span className='primary'>Know</span></h1>
                 </div>
                 <div className='col'>
                     <h5>Support</h5>

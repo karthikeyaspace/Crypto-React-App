@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Bars from '../assets/bars.png'
 
 import './Navbar.css'
-import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 
 
@@ -14,7 +13,7 @@ function Navbar() {
 
     <div className="header" >
       <div className="container">
-        <h1 >C<span className="primary">rypto</span></h1>
+        <h1 >Crypt0<span className="primary">Know</span></h1>
         <ul className={menu ? 'nav-menu active' : 'nav-menu'}>
           <li>
             <Link to='#hero' smooth>Home</Link>
@@ -27,6 +26,9 @@ function Navbar() {
           </li>
           <li>
             <Link to='#footer' smooth>Contact</Link>
+          </li>
+          <li>
+            <Link to='coins' smooth>All Coins</Link>
           </li>
         </ul>
         

@@ -8,7 +8,7 @@ const Hero = () => {
             <div className='container'  id='hero'>
 
                 {/* Left Side */}
-                <div className='left'>
+                <div className='left' id='left'>
                     <p>Buy & Sell Crypto 24/7</p>
                     <h1>Invest in Cryptocurreny and Become a Millionaire</h1>
                     <p>Buy, Sell cryptocurrencies</p>

@@ -1,22 +1,35 @@
 import React from 'react'
-import Navbar from './components/Navbar.jsx'
-import Hero from './components/Hero.jsx'
-import Featured from './components/Featured.jsx'
-import Signup from './components/Signup.jsx'
-import Footer from './components/Footer.jsx'
-import { BrowserRouter } from 'react-router-dom'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import RootLayout from './RootLayout'
+import RootPage from './RootPage.jsx'
+import Coins from './components/Coins.jsx'
 
 function App() {
-  
+  let bbrowser = createBrowserRouter([{
+    path:'',
+    element:<RootLayout/>,
+    children:[
+      {
+        path:'',
+        element:<RootPage/>
+      }
+      ,
+      {
+        path:'coins',
+        element:<Coins/>
+      },
+      {
+        path:'*',
+        element:<RootPage/>
+      }
+    ]
+
+  }])
 
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Hero />
-      <Featured />
-      <Signup />
-      <Footer />
-    </BrowserRouter>
+    <div>
+      <RouterProvider router={bbrowser}/>
+    </div>
   )
 }
 
