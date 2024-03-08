@@ -16,16 +16,16 @@ function Navbar() {
         <h1 >Crypt0<span className="primary">Know</span></h1>
         <ul className={menu ? 'nav-menu active' : 'nav-menu'}>
           <li>
-            <Link to='#hero' smooth>Home</Link>
+            <Link to='/#hero' smooth>Home</Link>
           </li>
           <li>
-            <Link to='#featured' smooth>About</Link>
+            <Link to='/#featured' smooth>About</Link>
           </li>
           <li>
-            <Link to='#signup' smooth>Services</Link>
+            <Link to='/#signup' smooth>Services</Link>
           </li>
           <li>
-            <Link to='#footer' smooth>Contact</Link>
+            <Link to='/#footer' smooth>Contact</Link>
           </li>
           <li>
             <Link to='coins' smooth>All Coins</Link>
