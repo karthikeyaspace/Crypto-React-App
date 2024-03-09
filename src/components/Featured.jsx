@@ -22,9 +22,9 @@ function Featured(){
 
     // using sample crypto json data as of 
 
-    // useEffect(()=>{
-    //     setData(jsondata);
-    // },[])
+    useEffect(()=>{
+        setData(jsondata);
+    },[])
 
 
 
