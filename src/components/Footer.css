@@ -16,11 +16,6 @@
     flex-direction: column;
 }
 
-.footer .bar {
-    width: 30px;
-    border-bottom: 4px solid var(--primary);
-    margin: 1rem 0;
-}
 
 .footer a {
     font-size: 1rem;
@@ -41,8 +36,13 @@
         margin-left: 3rem;
     }
 
+    .footer .col{
+        text-align: left;
+    }
+
     .footer .col-1 {
         display: none;
     }
+
 
 }

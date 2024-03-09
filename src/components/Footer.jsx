@@ -9,7 +9,6 @@ export default function Footer(){
                 </div>
                 <div className='col'>
                     <h5>Support</h5>
-                    <span className='bar'></span>
                         <a href='/'>Contact Us</a>
                         <a href='/'>Chat</a>
                         <a href='/'>Help Center</a>
@@ -18,7 +17,6 @@ export default function Footer(){
                 </div>
                 <div className='col'>
                     <h5>Developers</h5>
-                    <span className='bar'> </span>
                         <a href='/'>Cloud</a>
                         <a href='/'>Commerce</a>
                         <a href='/'>Pro</a>
@@ -27,7 +25,6 @@ export default function Footer(){
                 </div>
                 <div className='col'>
                     <h5>Company</h5>
-                    <span className='bar'> </span>
                         <a href='/'>About</a>
                         <a href='/'>Information</a>
                         <a href='/'>Legal</a>
@@ -35,7 +32,6 @@ export default function Footer(){
                 </div>
                 <div className='col'>
                     <h5>Social</h5>
-                    <span className='bar'> </span>
                         <a href='/'>Facebook</a>
                         <a href='/'>Twitter</a>
                         <a href='/'>Linkedin</a>

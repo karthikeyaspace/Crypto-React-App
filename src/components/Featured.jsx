@@ -4,6 +4,7 @@ import Up from '../assets/up.svg'
 import Down from '../assets/down.svg'
 // import axios from 'axios'
 import jsondata from '../data/data.json';
+import { Link } from "react-router-dom";
 
 function Featured(){
 
@@ -11,15 +12,6 @@ function Featured(){
     const [data, setData] = useState(null)
 
     const url = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=inr&order=market_cap_desc&per_page=6&page=1&sparkline=false&locale=en"
-
-    // useEffect(()=> {
-    //     axios.get(url).then((response) => {
-    //         setData(response.data)
-    //     }).catch((error) =>{
-    //         console.log(error)
-    //     })
-    
-    // }, [])
 
     // useEffect(()=>{
     //     fetch(url)
@@ -30,9 +22,9 @@ function Featured(){
 
     // using sample crypto json data as of 
 
-    useEffect(()=>{
-        setData(jsondata);
-    },[])
+    // useEffect(()=>{
+    //     setData(jsondata);
+    // },[])
 
 
 
@@ -46,7 +38,7 @@ function Featured(){
                 <div className="left">
                     <h2>Explore top Crypto Currencies like Bitcoin, Etherium, and Dogecoin</h2>
                     <p>See all avaliable cryptocurrencies</p>
-                    <a href="Coins.jsx"><button className="btn btn-fea">See more</button></a>
+                    <Link to="/coins"><button className="btn btn-fea">See more</button></Link>
                 </div>
 
                 <div className="right">

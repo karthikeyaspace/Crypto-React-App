@@ -96,11 +96,6 @@
         grid-template-columns: 1fr;
     }
 
-    .featured .left  .btn-fea {
-        align-self: center;
-        width: 80%;
-    }
-    
     .featured{
         clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 95%);
     }
